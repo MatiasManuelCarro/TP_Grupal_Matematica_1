@@ -13,7 +13,7 @@ def funcion_operacion(operador):
         print(f"\n--- TABLA DE VERDAD: {operador} ---")
         print(f"A | B | A {operador} B")
         for i in range (0, 2): #comenzamos el primer loop, con un valor entre 0 y 1 (inclusive)
-            for c in range (0, 2): #Se realiza otro loop dentro del primero, con el segundo valor, entre 0 y 1 (inclusive")
+            for c in range (0, 2): #Se realiza otro loop dentro del primero, con el segundo valor, entre 0 y 1 (inclusive)
                 if operador == "AND": #Si el operador es AND, realizamos la operacion
                     x = i and c
                 elif operador == "OR": 
