@@ -37,6 +37,7 @@ print("A | NOT A")
 for i in range (0, 2):
     x = int(not i)
     print(f"{i} |   {x}")
+
 #print("\n--- TABLA DE VERDAD: XOR ---")
 #    print("A | B | A XOR B")
 #    print("0 | 0 |   0")
@@ -63,4 +64,18 @@ print("A | B | A NAND B")
 for i in range (0, 2):
     for b in range (0, 2):
         x = int(not (i and b))
+        print(f"{i} | {b} |   {x}")
+
+#print("\n--- TABLA DE VERDAD: NOR ---")
+#    print("A | B | A NOR B")
+#    print("0 | 0 |   1")
+#    print("0 | 1 |   0")
+#    print("1 | 0 |   0")
+#    print("1 | 1 |   0")
+
+print("\n--- TABLA DE VERDAD: NOR ---")
+print("A | B | A NOR B")
+for i in range (0, 2):
+    for b in range (0, 2):
+        x = int(not (i or b))
         print(f"{i} | {b} |   {x}")
