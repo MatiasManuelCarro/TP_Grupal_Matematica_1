@@ -8,15 +8,16 @@ def pedir_valor(mensaje):
             print("Por favor, ingresá solo 0 o 1.")  # Si no, muestra un mensaje de error
 
 def funcion_operador(i, c, operador):
+    #Esta funcion corre dentro del loop
     if operador == "AND": #Si el operador es AND, realizamos la operacion
         x = i and c
-    elif operador == "OR": 
+    elif operador == "OR": #Si el operador es OR, realizamos la operacion
         x = i or c
-    elif operador == "XOR": 
+    elif operador == "XOR": #Si el operador es XOR, realizamos la operacion
         x = i ^  c
-    elif operador == "NAND": 
+    elif operador == "NAND": #Si el operador es NAN, realizamos la operacion
         x = int(not (i and c))
-    elif operador == "NOR": 
+    elif operador == "NOR":  #Si el operador el NOR, realizamos la operacion 
         x = int(not (i or c))
     return x
 
