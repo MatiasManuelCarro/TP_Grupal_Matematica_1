@@ -77,7 +77,7 @@ def main():
         print("Z - Operacion NOR")
         print("S - Salir")
 
-        opcion = input("Seleccioná una opción: ").upper()
+        opcion = input("Seleccioná una opción: ").upper() #Pasamos el ingreso del usuario a mayusculas
 
         if opcion == "A":
             operador = "AND"
