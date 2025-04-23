@@ -2,7 +2,7 @@
 **Tecnicatura Universitaria en Programación**  
 ➡️ *Universidad Tecnológica Nacional* 
 
-## 💾 TP Grupal de Matematica 1 del grupo 2 comision 11
+## 💾 TP Grupal de Matematica 1 
 
 ### ✔️ Comisión: 11
 Grupo N°2:   Hugo Catalan, Ignacio Carné, Gaspar Compagnucci, Diego Carrizo, Gabriel Carbajal, Matías Carro
