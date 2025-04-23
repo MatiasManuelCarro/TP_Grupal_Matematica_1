@@ -6,7 +6,7 @@
 
 ### ✔️ Comisión: 11
 Grupo N°2:   Hugo Catalan, Ignacio Carné, Gaspar Compagnucci, Diego Carrizo, Gabriel Carbajal, Matías Carro
-Docentes: Titular - Carolina Bruno | Tutor - Manuel Rivas
+Docentes: Titular - VANINA DURRUTTY | Tutor - DEMIAN BOGADO
 
 Este es un repositorio para el Trabajo practico grupal 1 de matematica
 
